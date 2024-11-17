@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: 'Arial', sans-serif; background-color: #f4f4f9; color: #333; padding: 20px; }
+    .email-container { max-width: 600px; margin: 0 auto; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; }
+    .header { text-align: center; background-color: #4CAF50; color: #fff; padding: 15px; border-radius: 8px 8px 0 0; }
+    .header h2 { margin: 0; font-size: 24px; }
+    .content p { margin: 8px 0; font-size: 16px; }
+    .content p strong { color: #4CAF50; }
+  </style>
+</head>
+<body>
+
+  <div class="email-container">
+    <div class="header">
+      <h2>New Contact Form Submission</h2>
+    </div>
+
+    <div class="content">
+      <p><strong>Name:</strong> {{name}}</p>
+      <p><strong>Company:</strong> {{company}}</p>
+      <p><strong>Email:</strong> {{email}}</p>
+      <p><strong>Phone:</strong> {{phone}}</p>
+      <p><strong>About Project:</strong> {{aboutProject}}</p>
+    </div>
+  </div>
+
+</body>
+</html>
