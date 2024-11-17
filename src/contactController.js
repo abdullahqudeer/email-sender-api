@@ -82,4 +82,7 @@ router.post("/contact-me", async (req, res) => {
   }
 });
 
+
+router.get("/", (req, res) => res.send("api is running...."));
+
 module.exports = router;

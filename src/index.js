@@ -11,7 +11,6 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.use('/api', emailController);
-
 // Start the server
 app.listen(port, () => {
   console.log(`Email service running on port ${port}`);
