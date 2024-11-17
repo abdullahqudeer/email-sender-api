@@ -34,6 +34,9 @@ const compileEmailTemplate = (templatePath, data) => {
 
 // POST route to handle contact form submissions
 router.post("/contact-me", async (req, res) => {
+
+  console.log("Request Body:", req.body);
+  
   const { name, company, email, phone, aboutProject } = req.body;
 
   // 1. Validate the request data
